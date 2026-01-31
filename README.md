@@ -148,10 +148,11 @@ If you need additional workflows (e.g., database queries, API calls beyond Googl
 
 ## Getting Started
 
-1. Create an and activate a virtual environment
+1. Create and activate a virtual environment
     ```bash
     uv venv
     source .venv/bin/activate
+    uv sync
     ```
 
 2. Set your environment variables:
